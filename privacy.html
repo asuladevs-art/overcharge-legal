@@ -21,7 +21,7 @@
 
 <section id="tr">
 <h1>Gizlilik Politikası</h1>
-<p class="mut">Uygulama: Overcharge: Protocol 0 (com.asulass.overcharge) · Geliştirici: Asula · Son güncelleme: 1 Kasım 2026</p>
+<p class="mut">Uygulama: Overcharge: Protocol 0 · Geliştirici: Asula · Son güncelleme: 8 Kasım 2026</p>
 
 <p>Bu politika, Overcharge: Protocol 0 oyununun hangi verileri işlediğini, neden işlediğini ve haklarınızı açıklar.</p>
 
@@ -30,9 +30,11 @@
 <tr><th>Veri</th><th>Ne için</th></tr>
 <tr><td><b>Oyuncu adı</b> (sizin seçtiğiniz takma ad)</td><td>Diğer oyunculara masada ve arkadaş listesinde gösterilir.</td></tr>
 <tr><td><b>Anonim hesap kimliği</b> ve herkese açık oyuncu kodu</td><td>Hesabınızı tanımak, ilerlemenizi saklamak, arkadaş ekleme ve davet için.</td></tr>
+<tr><td><b>Google hesabı e-posta adresi ve Google kimliği</b> (yalnızca Ayarlar'dan hesabınızı Google ile bağlarsanız; isteğe bağlıdır)</td><td>Hesabınızı korumak: telefon değiştirdiğinizde ya da oyunu yeniden kurduğunuzda aynı hesaba girip satın aldıklarınıza ve Volt'unuza erişmeniz. Başka hiçbir amaçla (reklam, pazarlama, analiz) kullanılmaz ve paylaşılmaz. Google'dan yalnızca e-posta ve temel profil bilgisi alınır; Google hesabınıza başka erişim istenmez.</td></tr>
 <tr><td><b>Oyun verileri</b>: Volt bakiyesi, maç sonuçları ve istatistikler, günlük seri, arkadaşlar ve düello davetleri, kuşanılan görünümler</td><td>Oyunun çalışması, çevrimiçi maçlar, sıralama ve rakip görünümü.</td></tr>
 <tr><td><b>Satın alma kayıtları</b> (hangi ürüne sahip olduğunuz, işlem kimliği)</td><td>Satın aldığınız ürünleri hesabınıza vermek, iade durumunda geri almak. Kart/ödeme bilgilerinizi biz görmeyiz; ödeme Google Play tarafından işlenir.</td></tr>
 <tr><td><b>Bildirim belirteci</b> (cihaz push token'ı)</td><td>Uygulama kapalıyken arkadaş isteği ve düello daveti bildirimi göndermek. Bildirim izni vermezseniz alınmaz.</td></tr>
+<tr><td><b>Çökme ve tanılama verisi</b> (cihaz markası/modeli, Android sürümü, uygulama sürümü, hata kaydı, uygulamanın son adımları, anonim hesap kimliği)</td><td>Uygulama çökmelerini ve çevrimiçi maçlarda oyundan düşme sorunlarını bulup düzeltmek. Reklam için kullanılmaz.</td></tr>
 <tr><td><b>Teknik kayıtlar</b> (IP adresi, istek zamanı)</td><td>Barındırma/hizmet sağlayıcımız tarafından güvenlik ve hizmet sürekliliği için otomatik tutulur.</td></tr>
 </table>
 
@@ -45,7 +47,9 @@
 <p>Verileri satmayız ve reklam amacıyla paylaşmayız. Hizmeti sunmak için şu hizmet sağlayıcılar adımıza veri işler:</p>
 <ul>
 <li><b>Supabase</b> — kimlik doğrulama, veritabanı ve çevrimiçi maç altyapısı.</li>
+<li><b>Google (Google ile giriş)</b> — hesabınızı isteğe bağlı olarak Google ile bağlamanız için kimlik doğrulama. Kullanımı <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uygundur.</li>
 <li><b>Google (Firebase Cloud Messaging)</b> — bildirim iletimi.</li>
+<li><b>Google (Firebase Crashlytics)</b> — çökme raporları.</li>
 <li><b>Google Play Faturalandırma</b> ve <b>RevenueCat</b> — uygulama içi satın alma işleme ve doğrulama.</li>
 </ul>
 <p>Yasal bir zorunluluk olması halinde yetkili mercilere bilgi verebiliriz.</p>
@@ -57,7 +61,7 @@
 <p>Veriler cihazınız ile sunucularımız arasında şifreli bağlantı (HTTPS/WSS) ile iletilir. Veritabanı erişimi satır düzeyinde yetkilendirme ile sınırlandırılmıştır. Hiçbir sistem %100 güvenli değildir.</p>
 
 <h2>6. Saklama ve silme</h2>
-<p>Verilerinizi hesabınız var olduğu sürece saklarız. <b>Hesabınızı ve ilişkili tüm verileri silmek</b> için uygulamada <i>Ayarlar → Hesabı sil</i> yolunu kullanabilir veya aşağıdaki adrese e-posta gönderebilirsiniz. Silme sonrası hesabınız, bakiyeniz, satın alınan ürünleriniz, arkadaş bağlantılarınız ve bildirim belirteciniz kalıcı olarak silinir; geri alınamaz. Yasal yükümlülükler gereği tutulması zorunlu mali kayıtlar (ödeme işlem kayıtları) ilgili süre boyunca ödeme sağlayıcıda kalabilir.</p>
+<p>Verilerinizi hesabınız var olduğu sürece saklarız. <b>Hesabınızı ve ilişkili tüm verileri silmek</b> için uygulamada <i>Ayarlar → Hesabı sil</i> yolunu kullanabilir veya aşağıdaki adrese e-posta gönderebilirsiniz. Silme sonrası hesabınız, bakiyeniz, satın alınan ürünleriniz, arkadaş bağlantılarınız ve bildirim belirteciniz kalıcı olarak silinir; geri alınamaz. Hesabınıza bağlı Google e-posta adresi ve Google kimliği de silinir. Yasal yükümlülükler gereği tutulması zorunlu mali kayıtlar (ödeme işlem kayıtları) ilgili süre boyunca ödeme sağlayıcıda, bizde ise hesabınızla bağlantısı koparılmış (kimliksiz) şekilde kalabilir.</p>
 
 <h2>7. Çocuklar</h2>
 <p>Oyun 18 yaşından küçüklere yönelik değildir ve bilerek 18 yaş altından veri toplamayız. 18 yaşından küçük birine ait veri tespit edersek sileriz.</p>
@@ -74,7 +78,7 @@
 
 <section id="en">
 <h1>Privacy Policy</h1>
-<p class="mut">App: Overcharge: Protocol 0 (com.asulass.overcharge) · Developer: Asula · Last updated: 1 November 2026</p>
+<p class="mut">App: Overcharge: Protocol 0 · Developer: Asula · Last updated: 8 November 2026</p>
 
 <p>This policy explains what data Overcharge: Protocol 0 processes, why, and your rights.</p>
 
@@ -83,9 +87,11 @@
 <tr><th>Data</th><th>Purpose</th></tr>
 <tr><td><b>Player name</b> (a nickname you choose)</td><td>Shown to other players at the table and in friend lists.</td></tr>
 <tr><td><b>Anonymous account ID</b> and public player code</td><td>To identify your account, store progress, add friends and send invites.</td></tr>
+<tr><td><b>Google account email address and Google ID</b> (only if you link your account with Google in Settings; optional)</td><td>To protect your account: so you can sign in to the same account after changing phones or reinstalling and keep your purchases and Volt. Never used for any other purpose (advertising, marketing, analytics) and never shared. We receive only your email and basic profile from Google; no other access to your Google account is requested.</td></tr>
 <tr><td><b>Game data</b>: Volt balance, match results and stats, daily streak, friends and duel invites, equipped cosmetics</td><td>Running the game, online matches and showing your look to opponents.</td></tr>
 <tr><td><b>Purchase records</b> (which items you own, transaction ID)</td><td>To grant purchased items and revoke them on refund. We never see your card details; payments are processed by Google Play.</td></tr>
 <tr><td><b>Push notification token</b></td><td>To notify you about friend requests and duel invites while the app is closed. Not collected if you decline notification permission.</td></tr>
+<tr><td><b>Crash and diagnostic data</b> (device make/model, Android version, app version, error logs, the app's last steps, anonymous account ID)</td><td>To find and fix app crashes and dropped-from-match problems in online games. Not used for advertising.</td></tr>
 <tr><td><b>Technical logs</b> (IP address, request time)</td><td>Kept automatically by our hosting provider for security and reliability.</td></tr>
 </table>
 
@@ -95,7 +101,7 @@
 <p>Your player name, avatar, equipped cosmetics, public player code and your moves in a shared match are visible to other players. We recommend not using your real name.</p>
 
 <h2>3. Sharing</h2>
-<p>We do not sell your data or share it for advertising. These service providers process data on our behalf: <b>Supabase</b> (authentication, database, online matches), <b>Google Firebase Cloud Messaging</b> (notifications), <b>Google Play Billing</b> and <b>RevenueCat</b> (in-app purchase processing and verification). We may disclose information where required by law.</p>
+<p>We do not sell your data or share it for advertising. These service providers process data on our behalf: <b>Supabase</b> (authentication, database, online matches), <b>Google Sign-In</b> (optional account linking; use of Google user data follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>), <b>Google Firebase Cloud Messaging</b> (notifications), <b>Google Firebase Crashlytics</b> (crash reports), <b>Google Play Billing</b> and <b>RevenueCat</b> (in-app purchase processing and verification). We may disclose information where required by law.</p>
 
 <h2>4. Stored on your device</h2>
 <p>Preferences (sound, theme, onboarding) and local game state are stored on your device and removed when you uninstall the app.</p>
@@ -104,7 +110,7 @@
 <p>Data is transmitted over encrypted connections (HTTPS/WSS). Database access is restricted with row-level authorization. No system is 100% secure.</p>
 
 <h2>6. Retention and deletion</h2>
-<p>We keep your data while your account exists. To <b>delete your account and all associated data</b>, use <i>Settings → Delete account</i> in the app or email us at the address below. After deletion your account, balance, purchased items, friend links and push token are permanently erased and cannot be recovered. Financial transaction records that must be retained by law may remain with the payment provider for the required period.</p>
+<p>We keep your data while your account exists. To <b>delete your account and all associated data</b>, use <i>Settings → Delete account</i> in the app or email us at the address below. After deletion your account, balance, purchased items, friend links and push token are permanently erased and cannot be recovered. The Google email address and Google ID linked to your account are deleted as well. Financial transaction records that must be retained by law may remain with the payment provider for the required period, and with us only in a form no longer linked to your account.</p>
 
 <h2>7. Children</h2>
 <p>The game is not directed to anyone under 18 and we do not knowingly collect data from them. If we learn we hold such data, we delete it.</p>
